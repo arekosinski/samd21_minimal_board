@@ -6,7 +6,7 @@
 
 #include <Arduino.h>
 
-/* On this boards are two additional LEDs available for control directly from MCU
+/* On this board are two additional LEDs available to control directly from MCU
  * - D25 / PB03
  * - D26 / PA27
  */
@@ -14,7 +14,7 @@
 
 void setup()
 {
-  //For serial PB22(TXD) and PB23(RXD) are used (on zero this is 'programing port')
+  //For Serial/UART either PB22(TXD) and PB23(RXD) are used (on Arduino Zero this is 'programing port')
   Serial.begin(9600);
   pinMode(LED_PIN,OUTPUT);
 }
