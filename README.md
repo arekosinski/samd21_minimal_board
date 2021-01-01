@@ -1,6 +1,6 @@
-## SAMD 21G Minimal board
+## SAM D21 Minimal board
 
-In this repo you can find minimal schematic required to work with [SAMD 21](https://www.microchip.com/wwwproducts/en/ATSAMD21G18) MCU.
+In this repo you can find minimal schematic required to work with [SAM D21G18A](https://www.microchip.com/wwwproducts/en/ATSAMD21G18) MCU.
 SAM D21 is quite popular platform - it's used in Arduino Zero and in many other appliances.
 
 This board is compatible with [Arduino](https://www.arduino.cc/) framework - in `led_example` directory you can find code required to light a LED on board and play with UART interface.
