@@ -53,3 +53,6 @@ MCU Model: ATSAMD21G18A
 
 
 Have fun :)
+
+## Schematic
+![SAM D21 minimal board](./samd21g_minimal_board.png?raw=true "SAM D21 minimal")
